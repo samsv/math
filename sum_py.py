@@ -41,7 +41,7 @@ def mul(a, b):
 
     def longmult(a, b):
         """
-        Performs long division on x, y
+        Performs long multiplication on x, y
         """
         def mult(a, b):
             """
