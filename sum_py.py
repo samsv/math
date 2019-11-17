@@ -115,12 +115,6 @@ def pow(x, y):
     def pow_int(x, integer):
         return 1 if integer == 0 else x * pow_int(x , integer-1)
 
-    if type(x) == type(y) and type(x) == int:
-        return pow_int(max(x, y), min(x, y))
-
-    if type(x) == int:
-        return pow_int(y, x)
-
     if type(y) == int:
         return pow_int(x, y)
 
